@@ -1,0 +1,41 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #FFFBF1;
+}
+/*find color pallete and find the font */
+/* study flexbox and grid to make webapp responsive*/
+
+#overlay{
+    display: none;
+}
+
+.welcome{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFB2B2;
+    align-items: center;
+    /*background-image: url(./Media/banner.webp) ;*/
+}
+form{
+    margin-left: 3%;
+}
+
+#jobList{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobItem{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FFF2D0;
+    border-width: 2px ;
+    border-color: #E36A6A;
+    border-style: solid;
+}
+
+
+

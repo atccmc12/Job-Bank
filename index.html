@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Bank App</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js" defer ></script>
+</head>
+<body>
+    <div class="welcome">
+        <!-- Create a banner that has a background picture related to tech and keep the title and the info floating on the image-->
+        <h1>Welcome to Tech job Bank!</h1>
+        <p>Find all the jobs availables in tech in the world.</p>
+    </div>
+
+        <form>
+            <h2>Find your perfect job!</h2>
+            <!-- Here will take place the filter for the jobs-->
+        </form>
+
+        <div id="jobList">
+
+            
+        </div>
+        
+
+        <div id="overlay">
+            <!-- this model will be populated depending on the item clicked-->
+             <div>
+                <div>
+                    <div id="modelCompany">
+                        <!-- insert logo and name-->
+                    </div>
+                    <h1 id="modelTitle">A</h1>
+                    <h2 id="modelCategory"> <!-- add jobType and category if posible separated with a comma--></h2>
+                    <div id="modelDate"></div>
+                </div>
+                
+                <p id="modelDescription"> <!--insert publication and expiration date--></p>
+
+                <div>
+                    <div id="modelWorkType"></div>
+                    <div id="modelLevel"></div>
+                    <div id="modelLocation"></div>
+                    <ul id="modelTags"></ul>
+                </div>
+
+                <button id="modelLink"></button>
+
+             </div>
+        </div>
+    <!-- This is the expected information from the database/API of Jobs
+     
+        -title: Job title
+        -description: The full HTML of the job description
+        -mainCategory:Job category
+        -applicationLink: Link to apply for the position
+        -pubDate: Timestamp of when the job was published
+        -expiryDate: Timestamp of when the job will expire
+        -companyName: Name of the company that is hiring
+        -companyLogo: Link to the company's logo
+        -jobType: Job type of the position
+        -workModel: Work model of the position
+        seniorityLevel: Seniority level of the position
+        minSalary (float or null): Minimum salary for the position (null if no value)
+        maxSalary (float or null): Maximum salary for the position (null if no value)
+        locations (array): Countries where candidates should be located, there can be more than one
+        tags (array): Job tags, there can be more than one
+    
+    -->
+        
+
+    <div>
+
+        <!-- Here the jobs will be displayed in small boxes
+        
+            try to use grid and or flexbox to make them responsive
+            find color pallet for website maybe red.
+
+        
+        -->
+    </div>
+
+    <div>
+        <!-- tab that will contain the favorites from the user that will be save in the locar storage-->
+    </div>
+</body>
+</html>
