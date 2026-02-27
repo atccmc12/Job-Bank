@@ -1,6 +1,6 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
+    margin: 0px;
     background-color: #FFFBF1;
 }
 /*find color pallete and find the font */
@@ -22,19 +22,26 @@ form{
     margin-left: 3%;
 }
 
-#jobList{
-    display:flex;
-    align-items: center;
-    justify-content: center;
+.container{
+    margin: 30px;
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .jobItem{
+    margin:10px;
+    size: 100px;
     border-radius: 10px;
     padding: 10px;
     background-color: #FFF2D0;
     border-width: 2px ;
     border-color: #E36A6A;
     border-style: solid;
+    box-shadow: 5px 5px #E36A6A;
+}
+.jobItem::after {
+    box-shadow: 0px 0px;
 }
 
 
